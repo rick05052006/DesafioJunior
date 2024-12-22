@@ -1,0 +1,208 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8A05BE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+p { 
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 5rem;
+  align-content: center;
+}
+
+
+.container {
+  background: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+.container {
+  background: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #110a14;
+}
+
+.label {
+  font-size: 0.9rem;
+  margin: 10px 0;
+  display: block;
+  color: #8A05BE;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #F8F8F8;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input:focus {
+  border: 1px solid #8A05BE;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.button-cadastro {
+  width: 100%;
+  background-color: #8A05BE; /* Roxo Nubank */
+  color: #FFF;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-cadastro:hover {
+  background-color: #7204A8; /* Cor mais escura ao passar o mouse */
+  transform: scale(1.02); /* Leve aumento no tamanho */
+}
+
+.button-cadastro:active {
+  background-color: #5C0387; /* Cor ao clicar */
+  transform: scale(0.98); /* Leve redução no tamanho */
+}
+
+
+/* Contêiner do botão */
+.login-button2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px; /* Espaço entre os botões */
+  
+}
+
+/* Estilo do botão de login */
+.login-button2 {
+  background-color: #8A05BE; /* Roxo Nubank */
+  color: #FFF;
+  border: none;
+  padding: 10px 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  flex: 1; /* Faz com que o botão ocupe todo o espaço disponível igualmente */
+  min-width: 150px; /* Define um tamanho mínimo para o botão */
+}
+
+
+/* Estilo do botão de voltar */
+.btn-voltar {
+  background-color: #0026ff; /* Azul */
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  flex: 1; /* Faz com que o botão ocupe todo o espaço disponível igualmente */
+  min-width: 150px; /* Define um tamanho mínimo para o botão */
+}
+
+.btn-voltar:hover {
+  background-color: #5C0387; /* Azul mais escuro ao passar o mouse */
+  transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+
+
+
+
+
+/* Estilo para o botão de login */
+.login-button2 {
+  background-color: #8A05BE; /* Cor roxa */
+  color: white;  /* Texto branco */
+  padding: 12px 20px;  /* Espaçamento interno */
+  border: none;  /* Sem borda */
+  border-radius: 10px;  /* Bordas arredondadas */
+  font-size: 16px;  /* Tamanho da fonte */
+  cursor: pointer;  /* Mãozinha no mouse */
+  width: 100%;  /* Largura completa do botão */
+  transition: background-color 0.3s ease;  /* Efeito de transição para a cor */
+}
+
+.login-button2:hover {
+  background-color: #8A05BE;;;  /* Cor mais escura ao passar o mouse */
+  transform: scale(1.05);
+}
+
+
